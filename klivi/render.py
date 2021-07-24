@@ -1,6 +1,7 @@
 import tkinter as tk
+from typing import Any, Dict
 
-widget_alias = {
+widget_alias: Dict[str, Any] = {
     "div": tk.Widget,
     "frame": tk.Frame,
     "button": tk.Button,

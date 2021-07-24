@@ -7,10 +7,10 @@ from klivi.utils.period import sleep
 from klivi.console import Console
 
 
-def main(file_name):
-    source = read_file(file_name)
-    lexer = Lexer(source).lexify()
-    parser = Parser(lexer)
+def main(file_name: str) -> bool:
+    source: str = read_file(file_name)
+    lexer: str = Lexer(source).lexify()
+    parser: Parser = Parser(lexer)
     parser.render()
     return True
 
