@@ -1,0 +1,23 @@
+from tkinter import *
+WIDGET_LIST = [
+    Widget,
+    Toplevel,
+    Entry,
+    Button,
+    Label,
+    Frame,
+    Canvas,
+    Radiobutton,
+    Menu,
+    Menubutton,
+    Checkbutton,
+    Listbox,
+    Message,
+    Scale,
+    Scrollbar,
+    Text,
+    OptionMenu,
+    Image,
+    PhotoImage,
+    Spinbox,
+]

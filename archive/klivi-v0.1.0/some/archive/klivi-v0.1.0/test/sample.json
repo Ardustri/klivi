@@ -1,0 +1,21 @@
+{
+    "window": {
+        "h1": "some sample data",
+        "div": {
+            "p": {
+                "@class": "hello",
+                "#text": "hello sample"
+            }
+        },
+        "input": [
+            {
+                "@type": "email",
+                "@placeholder": "email"
+            },
+            {
+                "@type": "button",
+                "@value": "submit"
+            }
+        ]
+    }
+}
