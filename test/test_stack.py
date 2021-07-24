@@ -1,19 +1,28 @@
 from klivi.stack import Stack
 
-
-def test_is_empty():
-    stack = Stack()
-    assert stack.is_empty() == True
+import unittest
 
 
-def test_add():
-    stack = Stack()
-    stack.push(1)
-    assert stack.stack == [1]
-    assert stack.push(1) == True
+class MyTestCase(unittest.TestCase):
+
+    def test_is_empty(self):
+        stack = Stack()
+        self.assertTrue(stack.is_empty)
+
+    def test_add(self):
+        stack = Stack()
+        stack.push(1)
+        
+        self.assertEqual(len(stack), 1)
+        self.assertEqual(list(stack), [1])
+        self.assertTrue(stack.push(1))
+
+    def test_pop(self):
+        stack = Stack()
+        stack.push(1)
+        self.assertEqual(stack.pop(), 1)
+        self.assertEqual(len(stack), 0)
 
 
-def test_pop():
-    stack = Stack()
-    stack.push(1)
-    assert stack.pop() == 1
+if __name__ == '__main__':
+    unittest.main()

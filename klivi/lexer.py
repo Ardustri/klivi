@@ -3,12 +3,10 @@ import xmltodict
 
 
 class Lexer:
-    """
-    klivi lexer
-    """
+    """klivi lexer."""
 
     def __init__(self, source) -> None:
         self.source = source
 
-    def lexify(self):
+    def lexify(self) -> str:
         return json.dumps(xmltodict.parse(self.source), indent=4)

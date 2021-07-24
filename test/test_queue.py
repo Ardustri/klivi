@@ -1,14 +1,24 @@
 from klivi.queue import Queue
 
-
-def test_enqueue():
-    queue = Queue()
-    queue.enqueue(1)
-    assert queue.queue == [1]
-    assert queue.enqueue(1) == True  # it return True
+import unittest
 
 
-def test_dequeue():
-    queue = Queue()
-    queue.enqueue(1)
-    assert queue.dequeue() == 1
+class MyTestCase(unittest.TestCase):
+    def test_enqueue(self):
+        queue = Queue()
+        queue.enqueue(1)
+
+        self.assertEqual(len(queue), 1)
+        self.assertEqual(queue.items, (1,))
+        self.assertTrue(queue.enqueue(1))
+
+    def test_dequeue(self):
+        queue = Queue()
+        queue.enqueue(1)
+
+        self.assertEqual(queue.dequeue(), 1)
+        self.assertEqual(len(queue), 0)
+
+
+if __name__ == '__main__':
+    unittest.main()
