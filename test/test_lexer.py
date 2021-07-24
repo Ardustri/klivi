@@ -5,25 +5,20 @@ import unittest
 
 
 class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)
 
     def test_answer(self):
-        html_content = ""
-        json_content = ""
-
-        with open("mock_data/sample.html", "r") as html_file:
-            html_content = html_file.read().replace("\n", "")
-            html_file.close()
-
-        with open("mock_data/sample.json", "r") as json_file:
-            json_content = json_file.read().replace("\n", "")
-            json_file.close()
+        html_content = get_single_line_content('mock_data/sample.html')
+        json_content = get_single_line_content('mock_data/sample.json')
 
         self.assertEqual(
             json.loads(Lexer(html_content).lexify()),
             json.loads(json_content)
         )
+
+
+def get_single_line_content(path):
+    with open(path) as f:
+        return f.read().replace('\n', '')
 
 
 if __name__ == '__main__':

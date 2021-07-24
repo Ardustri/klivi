@@ -14,7 +14,7 @@ class MyTestCase(unittest.TestCase):
         stack.push(1)
         
         self.assertEqual(stack.stack, [1])
-        self.assertTrue(stack.push(1), True)
+        self.assertTrue(stack.push(1))
 
     def test_pop(self):
         stack = Stack()
