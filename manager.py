@@ -8,7 +8,7 @@ version = "1.0.0"
 command = input(">> ")
 
 git = [
-    "sh git.sh"
+    "sh script/git.sh"
 ]
 
 release = [

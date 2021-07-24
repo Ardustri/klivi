@@ -6,11 +6,11 @@ def test_answer():
     html_content = ""
     json_content = ""
 
-    with open("sample.html", "r") as html_file:
+    with open("mock_data/sample.html", "r") as html_file:
         html_content = html_file.read().replace("\n", "")
         html_file.close()
 
-    with open("sample.json", "r") as json_file:
+    with open("mock_data/sample.json", "r") as json_file:
         json_content = json_file.read().replace("\n", "")
         json_file.close()
 
