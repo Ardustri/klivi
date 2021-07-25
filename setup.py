@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="klivi",
-    version="0.1.0",
+    version="0.3.0",
     description="klivi, build cross platform desktop app with html",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -19,15 +19,14 @@ setup(
     author_email="contact@klivi.ardustri.org",
     license="MPL-2.0",
     classifiers=[
-        "License:: OSI Approved",
         "Programming Language :: Python :: 3",
     ],
     packages=["klivi"],
     include_package_data=True,
-    install_requires=["feedparser", "html2text"],
+    install_requires=["colorama", "pywebview", "xmltodict"],
     entry_points={
         "console_scripts": [
-            "realpython=reader.__main__:main",
+            "klivi=klivi.__main__:main",
         ]
     },
 )
