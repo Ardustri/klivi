@@ -6,13 +6,13 @@
 
 # install klivi
 
-```
+```sh
 pip install klivi
 ```
 
 ## klivi support webview
 
-```
+```sh
 python -m klivi run_webview [html_file].html
 ```
 
@@ -22,7 +22,7 @@ python -m klivi run_webview [html_file].html
 
 ### example
 
-```
+```html
 <!-- file name: main.khtml -->
 <window>
     <button>Hello klivi</button> # coming soon
@@ -31,7 +31,7 @@ python -m klivi run_webview [html_file].html
 
 ### to run it
 
-```
+```sh
 python -m klivi run_native main.khtml # coming soon
 ```
 
