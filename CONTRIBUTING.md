@@ -2,9 +2,9 @@
 
 ## there are several contribution method
 
--   📖  documentation (in docs.md)
--   💻  code contribution
--   💬  and answering issue and disscusion
--   ✅  improve testing
+-   📖 &nbsp; documentation (in docs.md)
+-   💻 &nbsp; code contribution
+-   💬 &nbsp; and answering issue and disscusion
+-   ✅ &nbsp; improve testing
 
 ### ✨ contribution are always appreciated
