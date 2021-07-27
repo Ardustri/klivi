@@ -1,10 +1,10 @@
 # Contributing to klivi
 
-## there are several contribution method
+## There are several contribution method
 
--   📖 &nbsp; documentation (in docs.md)
--   💻 &nbsp; code contribution
--   💬 &nbsp; and answering issue and disscusion
--   ✅ &nbsp; improve testing
+-   📖 &nbsp; Documentation (in docs.md)
+-   💻 &nbsp; Code contribution
+-   💬 &nbsp; And answering issue and disscusion
+-   ✅ &nbsp; Improve testing
 
 ### ✨ contribution are always appreciated
