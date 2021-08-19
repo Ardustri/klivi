@@ -1,3 +1,5 @@
+# ⚠️Tthis ⚠️ project is Unmaintaned
+
 # klivi
 
 ## "Hate write desktop app in native?, then just use klivi!"
@@ -39,5 +41,4 @@ python -m klivi run_native main.khtml # coming soon
   
 ## please read our updated contributing guide [https://github.com/Ardustri/klivi/blob/master/CONTRIBUTING.md] first
 
-### warning: ⚠️ project still in development
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=ardustri.klivi)
