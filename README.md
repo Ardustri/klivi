@@ -1,8 +1,6 @@
 # ⚠️This project is Unmaintaned
 
 # klivi
-
-## tutorial
  
 # install klivi
  
