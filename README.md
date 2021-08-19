@@ -1,4 +1,4 @@
-# ⚠️Tthis ⚠️ project is Unmaintaned
+# ⚠️This project is Unmaintaned
 
 # klivi
 
