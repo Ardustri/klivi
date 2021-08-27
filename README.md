@@ -1,5 +1,3 @@
-# ⚠️This project is Unmaintaned
-
 # klivi
  
 # install klivi
